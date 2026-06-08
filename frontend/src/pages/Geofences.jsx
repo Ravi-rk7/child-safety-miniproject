@@ -36,8 +36,8 @@ export default function Geofences() {
         name: newGeo.name,
         fullName: newGeo.name,
         icon: "location_on",
-        latitude: loc.latitude ?? 18.5204,
-        longitude: loc.longitude ?? 73.8567,
+        latitude: loc.latitude ?? 18.5314,
+        longitude: loc.longitude ?? 73.8446,
         radius: parseInt(newGeo.radius),
         type: newGeo.type,
         active: true,
@@ -106,7 +106,7 @@ export default function Geofences() {
         }}
       >
         <MapView
-          center={[loc.latitude ?? 18.5204, loc.longitude ?? 73.8567]}
+          center={[loc.latitude ?? 18.5314, loc.longitude ?? 73.8446]}
           zoom={14}
           height="100%"
           deviceLocation={loc}

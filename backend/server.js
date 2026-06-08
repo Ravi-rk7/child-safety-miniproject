@@ -28,9 +28,9 @@ app.use('/api/activities', activityRoutes);
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, async () => {
-  console.log(`\n🚀 Guardian Nexus Backend → http://localhost:${PORT}`);
-  console.log(`📡 Firebase DB → ${DB_URL}\n`);
-  
+  console.log(` Guardian Nexus Backend → http://localhost:${PORT}`);
+  console.log(` Firebase DB → ${DB_URL}`);
+
   // Initialize data and simulator
   await seedData();
   startSimulator();

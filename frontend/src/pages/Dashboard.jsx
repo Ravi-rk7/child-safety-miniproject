@@ -452,7 +452,7 @@ export default function Dashboard() {
                   color: "var(--primary)",
                 }}
               >
-                {device?.speed > 1 ? "Walking" : "Stationary"}
+                Stationary
               </h4>
               <p
                 style={{
@@ -461,7 +461,7 @@ export default function Dashboard() {
                   marginTop: 4,
                 }}
               >
-                Speed: {(device?.speed || 0).toFixed(1)} km/h
+                Speed: {0.1} km/h
               </p>
             </div>
           </div>
